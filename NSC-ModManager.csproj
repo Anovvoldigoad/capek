@@ -186,6 +186,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="XFBIN_LIB\XFBIN_LIB.csproj" />
+    <Reference Include="XFBIN_LIB"><HintPath>XFBIN_LIB.dll</HintPath></Reference>
   </ItemGroup>
 </Project>
