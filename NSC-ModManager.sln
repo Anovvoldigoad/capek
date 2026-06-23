@@ -5,7 +5,7 @@ VisualStudioVersion = 18.2.11415.280 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSC-ModManager", "NSC-ModManager.csproj", "{7BEEC72A-C3EF-4C1F-9445-3882AEA67A2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFBIN_LIB", "..\XFBIN_LIB\XFBIN_LIB.csproj", "{87DB82BB-8901-EAC7-393C-D84C8CA798BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFBIN_LIB", "XFBIN_LIB\XFBIN_LIB.csproj", "{87DB82BB-8901-EAC7-393C-D84C8CA798BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
