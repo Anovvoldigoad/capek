@@ -1,9 +1,0 @@
-Error: Specified argument was out of the range of valid values.
-
-StackTrace:    at NSC_ModManager.BinaryReader.b_ReadString(Byte[] actual, Int32 index, Int32 count) in C:\Users\ARDOR\Desktop\C# Projects\NSC-ModManager\BinaryReader.cs:line 168
-   at NSC_ModManager.ViewModel.PRMEditorViewModel.GenerateVer(PRMEditorModel binary) in C:\Users\ARDOR\Desktop\C# Projects\NSC-ModManager\ViewModel\PRMEditorViewModel.cs:line 934
-   at NSC_ModManager.ViewModel.PRMEditorViewModel.OpenFile(String basepath) in C:\Users\ARDOR\Desktop\C# Projects\NSC-ModManager\ViewModel\PRMEditorViewModel.cs:line 851
-   at NSC_ModManager.ViewModel.TitleViewModel.ExtractNus4(String nus4Path, String destinationFolder) in C:\Users\ARDOR\Desktop\C# Projects\NSC-ModManager\ViewModel\TitleViewModel.cs:line 7989
-   at NSC_ModManager.ViewModel.TitleViewModel.InstallMod(String mod_path) in C:\Users\ARDOR\Desktop\C# Projects\NSC-ModManager\ViewModel\TitleViewModel.cs:line 7767
-
-Time: 17.03.2026 10:29:37
