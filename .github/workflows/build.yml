@@ -18,14 +18,11 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
-    - name: Build XFBIN_LIB
-      run: dotnet build XFBIN_LIB/XFBIN_LIB.csproj --configuration Release
-
-    - name: Restore NSC-ModManager
+    - name: Restore
       run: dotnet restore NSC-ModManager.csproj
 
-    - name: Build NSC-ModManager
-      run: dotnet build NSC-ModManager.csproj --configuration Release --no-restore /p:GenerateAssemblyInfo=false /p:GenerateTargetFrameworkAttribute=false
+    - name: Build
+      run: dotnet build NSC-ModManager.csproj --configuration Release --no-restore
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
