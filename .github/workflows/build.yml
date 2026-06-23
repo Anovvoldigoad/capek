@@ -24,11 +24,11 @@ jobs:
     - name: Build
       run: dotnet build NSC-ModManager.csproj --configuration Release --no-restore
 
-    - name: List output
-      run: Get-ChildItem -Recurse bin/Release/ | Select-Object FullName
+    - name: List bin
+      run: Get-ChildItem -Recurse bin/ | Select-Object FullName
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: NSC-ModManager
-        path: bin/Release/**/*
+        path: bin/**/*
